@@ -1,0 +1,17 @@
+<ion-header>
+  <!-- <ion-navbar> -->
+    <ion-title>
+      Application
+    </ion-title>
+  <!-- </ion-navbar> -->
+</ion-header>
+
+<ion-content padding>
+    <button ion-button block (click)="lockMethod()">Lock</button>
+    <button ion-button block (click)="sleepMethod()">Sleep</button>
+    <button ion-button block (click)="shutDownMethod()">Shut Down</button>
+    <button ion-button block (click)="logOut()">Logout</button>
+    <!-- <button ion-button block>Fourth Call</button> -->
+
+    <p>{{response}}</p>
+</ion-content>
